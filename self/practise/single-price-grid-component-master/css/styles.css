@@ -1,0 +1,66 @@
+
+
+.first_heading{
+  color: hsl(179, 62%, 43%);
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.second_heading{
+  color:#fff;
+  font-size:1.5rem;
+  padding: 0 0 20px;
+  font-family: "Karla";
+  font-weight: 700;
+}
+.section_text{
+  color: hsl(204, 43%, 93%);
+  font-size: 1rem;
+  font-family: "Karla";
+  font-weight: 400;
+}
+.sections{
+  background-color: #66BFBF;
+  padding:40px 40px 25px;
+  /* line-height: 0.5rem; */
+}
+
+/* Join community */
+#join_community{
+  background-color: #fff;
+  padding: 60px;
+}
+
+#join_community .second_heading{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.1rem;
+    padding: 15px 0 10px;
+}
+#join_community .section_text{
+    color: hsl(218, 22%, 67%);
+}
+#subscription{
+  background-color: hsl(179, 62%, 43%);
+  line-height: 1.4;
+}
+.price{
+  font-size: 2rem;
+  font-family: "Karla";
+  font-weight: 700;
+}
+.btn{
+  background-color: hsl(71, 73%, 54%);
+  border-color: hsl(71, 73%, 54%);
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+.btn:hover{
+  background-color: hsl(71, 73%, 54%);
+}
+
+.attribution{
+  color:black;
+  text-align: center;
+  padding-top: 50px;
+}

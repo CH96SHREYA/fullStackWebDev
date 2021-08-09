@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong|Sofia|Audiowide&effect=fire">
+  <meta charset="utf-8">
+  <title>Css Tutorial</title>
+</head>
+<style media="screen">
+  body {}
+
+  p.border {
+    /*border-top-style:dotted;
+  border-bottom-style:solid;
+  border-left-style:dotted;
+  border-right-style:solid; */
+    border-style: dotted solid double dashed;
+    margin: 25px 50px 75px 100px;
+    font-family: "Trirong", serif;
+
+  }
+
+  #shorthand {
+    border: 5px solid red;
+    border-radius: 5px;
+    font-family: "Sofia", serif;
+  }
+
+  .singleside {
+    border-bottom: 6px double red;
+    font-family: "Audiowide", serif;
+  }
+
+  ul.a {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    background: #3399ff;
+    padding: 20px;
+    /*list-style-image:url("https://media.istockphoto.com/vectors/checkbox-vector-id1077395338?k=6&m=1077395338&s=612x612&w=0&h=0gEauLUTaw2aaOCgy3IrYDBp1dtgCaF46cZzzETflLY=");*/
+
+  }
+
+  ul.b {
+    list-style-type: disc;
+    list-style-position: outside;
+  }
+
+  ul.c {
+    list-style: circle inside;
+  }
+
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+  table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ tr:nth-child(even){
+  background-color: #cce5ff;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+</style>
+
+<body>
+  <h1>Let's practice some CSS</h1>
+  <p class="border">A line to border around</p>
+  <p id=shorthand>Another line</p>
+  <p class="singleside"> Yet another line </p>
+
+  <h1>Styling List </h1>
+  <h2>Names of Asian Countries</h2>
+  <ul class="a">
+    <li>India</li>
+    <li>Nepal</li>
+    <li>Israel</li>
+    <li>Pakistan</li>
+  </ul>
+  <h2>Names of Indian fabric</h2>
+  <ul class="b">
+    <li>cotton</li>
+    <li>silk</li>
+    <li>georgette</li>
+    <li>pashmina</li>
+  </ul>
+  <h2>Names of Indian food</h2>
+  <ul class="c">
+    <li>Choley Bhaturey</li>
+    <li>Golgappe/li>
+    <li>Idli</li>
+    <li>Litti chokha</li>
+  </ul>
+
+  <h2>Creating a responsive table</h2>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>

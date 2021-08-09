@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+<h1> HTML Forms </h1>
+<h2> Please fill your details </h2>
+<br>
+
+<form action="/action_page.php" target ="_blank" method="post" invalidate autocomplete="off">
+
+<fieldset>
+<legend> Name </legend>
+<p><strong>Fill your name here </strong> </p>
+<label for="fname"> First Name: </label><br>
+<input type="text" id="fname" name="fname" placeholder ="FirstName"><br>
+<br>
+
+<label for="lname"> Last Name: </label><br>
+<input type="text" id="lname" name="lname" placeholder="LastName"> 
+</fieldset>
+<br>
+<br>
+<br>
+
+<fieldset>
+<legend> Other Details</legend>
+<p><strong>Select your gender</strong> </p>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female"> Female </label><br>
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male"> Male</label><br>
+
+<input type="radio" id="other" name="gender" value="other">
+<label for="other"> Other </label><br>
+<br>
+
+<p><strong>Please select all that applies</strong> </p>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike </label><br>
+
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle1"> I have a bike </label><br>
+
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Private Jet">
+<label for="vehicle1"> I have a private jet </label><br>
+
+<p><strong>Monthly Income</strong> </p><br>
+<label for "salary"> Select your monthly salary range</label>
+
+<select id="salary" name="salary" size="2" multiple>
+  <option value="Less than 5000"> Less than 5000</option>
+  <option value=" 5000-20000"> 5,000-20,000</option>
+  <option value="20,000-50,000">20,000-50,000</option>
+   <option value="50,000-1,00,000">250,000-1,00,000</option>
+</select>
+<br>
+<br>
+
+</fieldset>
+<p><strong>Tell me about yourself</strong> </p><br>
+<textarea name="about" rows="10" cols="30">Type here...
+</textarea>
+<br>
+
+<p><strong>Write us back for queries</strong> </p><br>
+<textarea name="about1" style="width:200px;height:250px;">Type here...
+</textarea>
+<br>
+<button type="button" onclick="alert('You clicked a button')"> Click Me!</button>
+
+<p><strong>Select your browser</strong> </p><br>
+
+<input list ="browsers">
+<datalist id="browsers">
+<option value="IE">
+<option value="Chrome">
+<option value="Firefox">
+<option value="Edge">
+<option value="Safari">
+</datalist>
+
+<br>
+<br>
+
+0<input type="range" id="a" name="a" value="50">100
+<br>
+<br>
+
+<input type="submit" value="Submit">
+<h2>Let's do some calculations </h2>
+</form>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+
+0 <input type="range" id="a" name="a" value="50"> 100 <br><br>+<br><br>
+<input type="number" id="b" name="b" value="50">
+=
+<output name="x" for="a b"></output>
+<br><br>
+
+
+<p><strong>Pick a colour</strong> </p><br>
+
+<label for="favcolor"> Select your fav colour: </label>
+<input type="color" id="favcolor" name="favcolor">
+
+<p><strong>Pick a date</strong> </p><br>
+
+<label for="date"> Select a date: </label><br>
+<input type="date" id="date" name="date"><br><br>
+
+<label for="timeDate"> Select : </label><br>
+<input type="datetime-local" id="timeDate" name="timeDate"><br><br>
+
+<label for="myEmail"> Email : </label><br>
+<input type="email" id="myEmail" name="myEmail"><br><br>
+
+<label for="aFile"> Select A file : </label><br>
+<input type="file" id="aFile" name="aFile"><br><br>
+
+<label for="dayMonth"> Select month</label><br>
+<input type="month" id="bdayMonth" name="dayMonth"><br><br>
+
+<label for="gSearch"> Search here</label><br>
+<input type="search" id="gSearch" name="gSearch"> autofocus<br><br>
+
+<label for=" "> Select : </label><br>
+<input type="" id=" " name=" "><br><br>
+
+
+<input type="reset">
+<input type="submit"></form>
+
+<h2> A video for fun </video>
+<br>
+
+<div style="text-align:center">
+
+<button onclick="playPause()"> Play/Pause</button>
+<button onclick="big()"> Big</button>
+<button onclick="small()"> Small</button>
+<button onclick="medium()"> Normal</button>
+
+<br>
+<br>
+<video width="420" id="video1">
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</div>
+
+<script>
+
+var myVideo=document.getElementById("video1");
+
+function playPause(){
+if(myVideo.paused)
+   myVideo.play();
+else
+   mVideo.pause();
+}
+
+function big(){
+myVideo.width=560;
+}
+
+function small(){
+myVideo.width=320;
+}
+
+function medium(){
+myVideo.width=420;
+}
+</script>
+
+<h2> HTML Canvas </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,2 @@
+let userPromise = fetch("https://randomuser.me/api/");
+console.log(userPromise);

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> HTML Tutorial </title>
+<meta charset ="UTF-8">
+<meta name="description" content ="HTML training">
+<meta  http-equiv="refresh" content="30">
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<base href="https://www.w3schools.com/" target="_blank">
+
+<style>
+
+<link rel="stylesheet" href="styles.css">
+
+#aHeading{
+Color:red;
+Text-align:center;
+}
+
+.city{
+Background-color: tomato;
+Color: white;
+Border: 2px solid black;
+Margin: 20px;
+Padding: 20px;
+background-image:url('/Users/shrchatu/Desktop/self/image_for_map.jpeg');
+Background-repeat: no-repeat;
+Background-size:cover;
+Background-attachment:fixed;
+}
+
+table, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 5px;
+}
+
+<!--table {
+  border-spacing: 15px;
+}-->
+
+th, td{
+padding: 20px;
+
+}
+
+th{
+Text-align: left;
+}
+
+#t101{
+Width: 100%;
+<!--Background-color: #f1f1c1;-->
+}
+
+#t101 th{
+Color: white;
+Background-color: black;
+}
+
+#t101 tr:nth-child(even) {
+Background-color: #fff;
+}
+#t101 tr:nth-child(odd){
+Color: white;
+Background-color: #000;
+}
+
+
+
+a:link{
+color: green;
+background-color: transparent;
+Text-decoration: none;
+}
+
+a:visited{
+color: gray;
+background-color: transparent;
+Text-decoration: none;
+}
+
+a:hover{
+color: red;
+background-color: transparent;
+Text-decoration: underline;
+}
+
+a:active{
+color: yellow;
+background-color: transparent;
+Text-decoration: underline;
+}
+
+</style>
+
+
+</head>
+
+<body >
+<h1 style="text-align: center;background-color:powderblue"> Let's learn HTML </h1>
+<br>
+<a href ="#aHeading"> bookmark demo </a>
+
+<p><a href ="#A"> Book mark eg </a></p>
+<p><a href ="#X1"> Jump to Image as link</a></p>
+<ins style="font-size:150%;"> HTML Quotation and Citation Elements </ins>
+
+<h3> How To be Happy</h3>
+<p>This is a blockquote</p>
+<blockquote cite ="https://www.brainyquote.com/topics/happiness-quotes">The happiness of your life depends upon the quality of your thoughts: therefore, guard accordingly, and take care that you entertain no notions unsuitable to virtue and reasonable nature.</blockquote>
+
+
+<q> Be happy for this moment. This moment is your life.</q>
+
+<p>According to research people who use less or no social media like <abbr title ="Facebook"> FB </abbr>, <abbr title="Instagram"> Insta </abbr> are happier. </p>
+
+<p> The best place where I can find happiness is </p>
+
+<address>
+P-34,<br>
+Indra Nagar <br>
+Bareilly<br>
+U.P.
+</address>
+
+
+This article is written by <cite> Shreya Chaturvedi </cite> <br>
+
+<bdo dir="rtl"> Be Happy always </bdo>
+
+<!-- A comment -->
+
+<hr>
+
+<ins style="font-size:150%;"> HTML Colors </ins>
+
+<h1 style ="background-color:Tomato;">Tomato</h1>
+<h1 style ="background-color:Orange;">Orange</h1>
+<h1 style ="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style ="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style ="background-color:Gray;">Gray</h1>
+<h1 style ="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style ="background-color:Violet;">Violet</h1>
+<h1 style ="background-color:LightGray;">LightGray</h1>
+
+<h1 style ="border:2px solid Tomato;">Tomato Border</h1>
+
+<ins style="font-size:150%;"> HTML Links </ins>
+<h3> Opens the document in a new window or tab </h3>
+<a href ="https://www.w3schools.com/" target="_blank"> Target blank </a>
+
+<h3> Default. Opens the document in the same window/tab as it was clicked </h3>
+<a href ="https://www.w3schools.com/" target="_self"> Target self </a>
+
+<h3> Opens the document in the parent frame </h3>
+<a href ="https://www.w3schools.com/" target="_parent"> Target parent </a>
+
+<h3> Opens the document in the full body of the window </h3>
+<a href ="https://www.w3schools.com/" target="_top"> Target top </a>
+
+<hr>
+<h2> Absolute URLs: for external link </h2>
+<p> <a href="https://www.w3schools.com/" target="_blank"> W3C </a></p>
+
+<h2> Relative URLs </h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+
+<hr>
+<h2 id ="X1"> Image as link </h2>
+<a href ="https://www.w3schools.com/"> <img src= "/Users/shrchatu/Downloads/my_ss.jpg" alt ="HTML link using image" style="width:42px;height:42px;">
+</a>
+
+<hr>
+
+<h2> Link to an email address </h2>
+<a href ="mailto:ch96shreya@gmail.com">For queries, please write to </a>
+
+<hr>
+<h2> Button as link</h2>
+<button onclick="document.loaction='https://www.w3schools.com/'"> Button as link eg </button>
+
+<hr>
+<h2> Link Titles </h2>
+<p> <a href="https://www.w3schools.com/" target="_blank" title ="HTML title"> W3C </a></p>
+
+<hr>
+<hr>
+
+<h2 id ="A"> Understanding bookmark </h2>
+
+
+<hr>
+<hr>
+<hr>
+
+<h2> HTML Table</h2>
+
+<table style ="width:100%">
+<caption> Faltu ki table </caption>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th colspan="2"> Contact> </th>
+</tr>
+
+<tr>
+<td> Shreya </td>
+<td> 25 </td>
+<td> 8888888</td>
+<td> <999999</td>
+</tr>
+
+<tr>
+<th rowspan="2"> Total </th>
+<td> 0 </td>
+</tr>
+
+<tr>
+<td> Shreya </td>
+<td> 25 </td>
+<td> 999999</td>
+</tr>
+
+<tr>
+<td> Shreya </td>
+<td> 25 </td>
+<td> <999999</td>
+</tr>
+<tr>
+<td> Shreya </td>
+<td> 25 </td>
+</tr>
+</table>
+
+<h2> Particular style to a table</h2>
+
+<table id="t101">
+
+<tr>
+<th> Country </th>
+<th> CAptial </th>
+</tr>
+
+<tr>
+<td> India </td>
+<td> Delhi </td>
+</tr>
+
+<tr>
+<td> UK </td>
+<td> London </td>
+</tr>
+</table>
+
+<hr>
+<hr>
+
+<h2> HTML Lists</h2>
+
+<h3> Unordered list of Beverages </h3>
+<ul style="list-style-type:square;">
+<li> Tea</li>
+<li> Coffee</li>
+<li> Coke </li>
+
+</ul>
+
+<h3> Ordered list of Beverages </h3>
+<ol type="a">
+<li> Tea</li>
+<li> Coffee</li>
+<li> Coke </li>
+
+</ol>
+
+<dl>
+<dt>Tea</dt>
+<dd> -from Assam </dd>
+
+<dt>Coffee</dt>
+<dd> -from Kerala </dd>
+</dl>
+
+<h1>Block elements </h1>
+<div style ="background-color:black; color:white; padding: 20px;">
+<h2> India </h2>
+<p> India is a democratic nation </p>
+<p> We are <i> densely </i> populated nation.</p>
+<p> We are also a <span style="color: blue; font-weight:bold"> very young nation </span>
+    With major population <mark> Under 35 yrs </mark> </p>
+</div>
+
+<div class ="city">
+<h2> Lucknow </h2>
+<p> UP</h2>
+</div>
+
+<div class= "city">
+<h2> Ahemdabad </h2>
+<p>Gujarat</h2>
+</div>
+
+<div class= "city" >
+<h2> Mumbai </h2>
+<p>Maharashtra</h2>
+</div>
+ 
+
+<hr>
+<hr>
+
+<h1 id="aHeading"> Using the id attribute </h1>
+
+<h1> HTML iframe </h1>
+
+<iframe src="demo_iframe.htm" name= "an_iframe" style:"border:none;" description="iframe tutorial">
+</iframe>
+
+<p> <a href="https://www.w3schools.com" target="an_iframe" >W3Schools </a> </p>
+
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+
+
+<h2> Image Map</h2>
+
+<img src="/Users/shrchatu/Desktop/self/image_for_map.jpeg" alt ="workplace" usemap="#workmap" style="width:400;height:379">
+
+
+<map name ="workmap">
+<area shape ="rect" coords="34,44,270,350" alt ="Computer" href="https://en.wikipedia.org/wiki/Computer" target="_blank">
+
+<area shape= "circle" coords="337 300 44" alt ="Coffee" href= "https://en.wikipedia.org/wiki/Coffee" target="_blank">
+</map>
+
+<h2> Picture </h2>
+
+<picture>
+
+<source  srcset ="/Users/shrchatu/Downloads/my_ss.jpg">
+<source  srcset="/Users/shrchatu/Desktop/self/image_for_map.jpeg"
+<img src ="/Users/shrchatu/Desktop/self/image_for_map.jpeg" alt ="An image" style="width:auto;"> 
+
+</picture>
+
+<h2 id="demo"> HTML JavaScript </h2>
+
+
+<script>
+function myFunction(){
+document.getElementById("demo").innerHTML="Hello JavaScript!";
+document.getElementById("demo").style.fontSize="125px";
+document.getElementById("demo").style.color="red";
+document.getElementById("demo").style.backgroundColor="yellow";
+}
+</script>
+
+<button type= "button" onclick="myFunction()">Click Me </button>
+
+
+<h2> Light Bulb program </h2>
+<img id="bulb" src="https://www.w3schools.com/html/pic_bulboff.gif" alt ="Bulb Off" style="width:100;height:180">
+
+
+<script>
+
+function operateBulb(sw){
+   if(sw==-1)
+      document.getElementById("bulb").src="https://image.shutterstock.com/image-photo/bulb-fused-due-electric-fluctuation-600w-1604667574.jpg";
+
+   if(sw==1)
+      document.getElementById("bulb").src="https://www.w3schools.com/html/pic_bulbon.gif"
+   else
+     document.getElementById("bulb").src= "https://www.w3schools.com/html/pic_bulboff.gif"
+  
+
+//document.getElementById("bulb").src=pic;
+} 
+
+
+</script>
+
+<p>
+<button type="button" onclick="operateBulb(1)"> Light on </button>
+<button type="button" onclick="operateBulb(0)"> Light off </button>
+<button type="button" onclick="operateBulb(-1)"> Bulb fuse </button>
+</p>
+
+
+
+
+</body>
+
+
+</html>

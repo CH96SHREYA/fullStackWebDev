@@ -1,0 +1,181 @@
+body {
+  text-align: center;
+}
+
+h2, h3, h4 {
+  font-family: "bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-family: "bai Jamjuree";
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+.second_heading {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.download_btn {
+  color: #fff;
+  border-radius: 20px;
+  margin: 20px 10px;
+}
+
+.download_btn:hover {
+  color: #fff;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* Introduction Section */
+#introduction {
+  padding: 100px 100px;
+  background-image: url("/Users/shrchatu/Desktop/self/practise/clipboard-landing-page-master/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#introduction h2 {
+  margin: 40px 0 15px;
+}
+
+.line_break::before {
+  content: "\a";
+  white-space: pre;
+}
+
+/* Features section */
+.img-computer {
+  margin-left: -400px;
+}
+
+.feature_describe {
+  padding-top: 60px;
+}
+
+.feature_point {
+  margin-top: 50px;
+}
+
+.features_container {
+  text-align: center;
+  padding: 70px 50px;
+}
+
+.device_img {
+  margin-top: 60px;
+}
+
+.feature_heading {
+  margin: 0 0 25px;
+}
+
+.workflow_snippet {
+  padding: 0 30px 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.workflow_icon {
+  margin-bottom: 15px;
+}
+
+/* Testimonials section */
+.logo_container {
+  margin: 90px 0 120px 280px;
+  padding: 0;
+}
+
+.testimonials_logo {
+  margin-left: 40px;
+}
+
+.logo-microsoft {
+  padding-top: 10px;
+}
+
+/* Call to Action Section */
+/* Contact us */
+footer {
+  background-color: hsl(201, 11%, 66%);
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+#contact_us {
+  padding: 40px;
+}
+
+.footer_logo {
+  width: 50px;
+  height: 50px;
+}
+
+#contact_us p {
+  color: #000;
+}
+
+.faq_gp {
+  text-align: left;
+}
+
+.faq_gp_logo {
+  margin-left: auto;
+}
+
+.faq_logo {
+  margin: 10px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive */
+@media(max-width:510px) {
+  #introduction {
+    background-image: url("/Users/shrchatu/Desktop/self/practise/clipboard-landing-page-master/images/bg-header-mobile.png");
+  }
+
+  .pictures {
+    margin: 0;
+    width: 400px;
+    height: 304px;
+  }
+  .logo_container{
+    margin-left: -40px;
+  }
+
+  .footer_logo {
+    margin-bottom: 15px;
+  }
+
+  .faq_gp {
+    text-align: center;
+  }
+
+  .download_btn {
+    width: 80%;
+    margin: 10px 0 10px;
+  }
+  .testimonials_logo {
+    margin-bottom: 70px;
+  }
+
+}
